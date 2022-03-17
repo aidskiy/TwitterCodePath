@@ -21,7 +21,7 @@
                                 <rect key="frame" x="120" y="306" width="135" height="55"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="135" id="q9Q-o1-MSv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="135" id="q9Q-o1-MSv"/>
                                     <constraint firstAttribute="height" constant="55" id="tea-Ip-lle"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
@@ -91,6 +91,7 @@
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iel-2K-LQE" secondAttribute="trailing" constant="20" symbolic="YES" id="3E6-NF-39y"/>
                                         <constraint firstItem="QHT-Qw-KUb" firstAttribute="trailing" secondItem="xnm-2V-amK" secondAttribute="trailingMargin" id="8Mb-NK-GHR"/>
                                         <constraint firstItem="IDi-Wt-wNU" firstAttribute="top" secondItem="xnm-2V-amK" secondAttribute="topMargin" id="90l-iJ-jDG"/>
                                         <constraint firstItem="iel-2K-LQE" firstAttribute="leading" secondItem="IDi-Wt-wNU" secondAttribute="trailing" constant="8" id="Fz2-Eg-Pko"/>
